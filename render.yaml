@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: centrotv-cr-web
+    runtime: static
+    buildCommand: echo CENTROTV-CR
+    staticPublishPath: ./webapp
